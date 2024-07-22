@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoCard renders grid type correctly 1`] = `
+<DocumentFragment>
+  <li
+    class=""
+  >
+    <img
+      alt="title"
+      class="w-full"
+      src="http://image/"
+    />
+    <div>
+      <p
+        class="font-semibold my-2 line-clamp-2"
+      >
+        title
+      </p>
+      <p
+        class="text-sm opacity-80"
+      >
+        channelTitle
+      </p>
+      <p
+        class="text-sm opacity-80"
+      >
+        just now
+      </p>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`VideoCard renders list type correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="flex gap-1 m-2"
+  >
+    <img
+      alt="title"
+      class="w-60 mr-2"
+      src="http://image/"
+    />
+    <div>
+      <p
+        class="font-semibold my-2 line-clamp-2"
+      >
+        title
+      </p>
+      <p
+        class="text-sm opacity-80"
+      >
+        channelTitle
+      </p>
+      <p
+        class="text-sm opacity-80"
+      >
+        just now
+      </p>
+    </div>
+  </li>
+</DocumentFragment>
+`;
